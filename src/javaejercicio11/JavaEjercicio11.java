@@ -43,20 +43,20 @@ public class JavaEjercicio11 {
             letra = cadena.charAt(i);
                 switch (letra){
                     case 'a':
-                        cadenaResultado=cadenaResultado + '@';
-                        continue;
+                        cadenaResultado = cadenaResultado + '@';
+                        break;
                     case 'e':
-                        cadenaResultado=cadenaResultado + '#';
-                        continue;
+                        cadenaResultado = cadenaResultado + '#';
+                        break;
                     case 'i':
-                        cadenaResultado=cadenaResultado + '$';
-                        continue;
+                        cadenaResultado = cadenaResultado + '$';
+                        break;
                     case 'o':
                         cadenaResultado=cadenaResultado + '%';
-                        continue;
+                        break;
                     case 'u':
                         cadenaResultado=cadenaResultado + '*';
-                        continue;
+                        break;
                     default:
                         cadenaResultado=cadenaResultado+letra;
                 }
